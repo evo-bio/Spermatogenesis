@@ -2,7 +2,7 @@ library(tidyverse)
 library(cowplot)
 library(ape)
 
-# Load gene expression data per cell type biological replicate across 1-1 orthologs
+# Load gene expression data per cell and type biological replicate across 1-1 orthologs
 mat <- readRDS( file="data/Tree.length.primates.input.rds" )
 
 tissues <- c("Other_somatic",
