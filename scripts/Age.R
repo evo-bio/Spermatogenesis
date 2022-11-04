@@ -4,7 +4,7 @@ library(cowplot)
 # Loading gene age / Higher values indicate larger contributions of lineage-specific genes (that is, younger transcriptomes)
 Human_age <- readRDS(file="data/Human.age.rds")
 
-# Loading Human count matrix
+# Loading Human count matrix / this is a subset for github storage purposes
 Human_counts <- readRDS(file="data/Human.counts.subset.rds")
 
 # Loading Human meta data
