@@ -2,7 +2,7 @@ library(tidyverse)
 library(cowplot)
 library(ape)
 
-# Load gene expression data per cell and type biological replicate across 1-1 orthologs
+# Loading gene expression data per cell and type biological replicate across 1-1 orthologs
 mat <- readRDS( file="data/Tree.length.primates.input.rds" )
 
 tissues <- c("Other_somatic",
@@ -19,7 +19,7 @@ tissues <- c("Other_somatic",
 Sum <- data.frame(Tissue=character(),
                   length=numeric())
 
-# Parse all cell types
+# Parsing all cell types
 for(tissue in tissues){
   
   print(tissue)
@@ -44,7 +44,7 @@ for(tissue in tissues){
                       resolve.root = TRUE)
     
     
-    ### Find edges to conserve ####
+    ### Finding edges to conserve ####
     ToBeConserved <- c()
     Connection <- this.tree$edge 
     colnames(Connection) <- c("node1","node2")
