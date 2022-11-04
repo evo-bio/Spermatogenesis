@@ -5,7 +5,7 @@ library(cowplot)
 Human_age <- readRDS(file="data/Human.age.rds")
 
 # Loading Human count matrix
-Human_counts <- readRDS(file="data/Human.counts.rds")
+Human_counts <- readRDS(file="data/Human.counts.subset.rds")
 
 # Loading Human meta data
 Human_meta_data <- readRDS(file="data/Human.meta.data.rds")
