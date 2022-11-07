@@ -4,7 +4,7 @@ library(cowplot)
 # Loading gene age 
 Human_tau <- readRDS(file="data/Human.tau.rds")
 
-# Loading Human count matrix / this is a subset for github storage purposes
+# Loading Human count matrix / this is a subset for storage purposes
 Human_counts <- readRDS(file="data/Human.counts.subset.rds")
 
 # Loading Human meta data
