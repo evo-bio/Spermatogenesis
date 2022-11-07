@@ -4,7 +4,7 @@ library(cowplot)
 # Loading Human Positively selected genes
 Human_PSG <- readRDS(file="data/Human.PSG.rds")
 
-# Loading Human count matrix / this is a subset for github storage purposes
+# Loading Human count matrix / this is a subset for storage purposes
 Human_counts <- readRDS(file="data/Human.counts.subset.rds")
 
 # Loading Human meta data
